@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1AFCF6BE1CDC050E006D2F3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFCF6BD1CDC050E006D2F3D /* AppDelegate.swift */; };
-		1AFCF6C31CDC050E006D2F3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AFCF6C11CDC050E006D2F3D /* Main.storyboard */; };
-		1AFCF6C51CDC050E006D2F3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AFCF6C41CDC050E006D2F3D /* Assets.xcassets */; };
-		1AFCF6C81CDC050E006D2F3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AFCF6C61CDC050E006D2F3D /* LaunchScreen.storyboard */; };
+		9DCB51741E1EC1EE00F6CFCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DCB516C1E1EC1EE00F6CFCD /* Assets.xcassets */; };
+		9DCB51751E1EC1EE00F6CFCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DCB516D1E1EC1EE00F6CFCD /* LaunchScreen.storyboard */; };
+		9DCB51761E1EC1EE00F6CFCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DCB516F1E1EC1EE00F6CFCD /* Main.storyboard */; };
+		9DCB51781E1EC1EE00F6CFCD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCB51731E1EC1EE00F6CFCD /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1AFCF6BA1CDC050E006D2F3D /* Notes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notes.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1AFCF6BD1CDC050E006D2F3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1AFCF6C21CDC050E006D2F3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1AFCF6C41CDC050E006D2F3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1AFCF6C71CDC050E006D2F3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		1AFCF6C91CDC050E006D2F3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DCB516C1E1EC1EE00F6CFCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9DCB516E1E1EC1EE00F6CFCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9DCB51701E1EC1EE00F6CFCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9DCB51711E1EC1EE00F6CFCD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DCB51731E1EC1EE00F6CFCD /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,7 +36,8 @@
 		1AFCF6B11CDC050E006D2F3D = {
 			isa = PBXGroup;
 			children = (
-				1AFCF6BC1CDC050E006D2F3D /* Notes */,
+				9DCB51721E1EC1EE00F6CFCD /* Sources */,
+				9DCB516B1E1EC1EE00F6CFCD /* Resources */,
 				1AFCF6BB1CDC050E006D2F3D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,16 +50,31 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1AFCF6BC1CDC050E006D2F3D /* Notes */ = {
+		9DCB516B1E1EC1EE00F6CFCD /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				1AFCF6BD1CDC050E006D2F3D /* AppDelegate.swift */,
-				1AFCF6C11CDC050E006D2F3D /* Main.storyboard */,
-				1AFCF6C41CDC050E006D2F3D /* Assets.xcassets */,
-				1AFCF6C61CDC050E006D2F3D /* LaunchScreen.storyboard */,
-				1AFCF6C91CDC050E006D2F3D /* Info.plist */,
+				9DCB51791E1EC1F600F6CFCD /* Storyboards */,
+				9DCB516C1E1EC1EE00F6CFCD /* Assets.xcassets */,
+				9DCB51711E1EC1EE00F6CFCD /* Info.plist */,
 			);
-			path = Notes;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9DCB51721E1EC1EE00F6CFCD /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				9DCB51731E1EC1EE00F6CFCD /* AppDelegate.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		9DCB51791E1EC1F600F6CFCD /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				9DCB516D1E1EC1EE00F6CFCD /* LaunchScreen.storyboard */,
+				9DCB516F1E1EC1EE00F6CFCD /* Main.storyboard */,
+			);
+			name = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -88,11 +104,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = DevMountain;
 				TargetAttributes = {
 					1AFCF6B91CDC050E006D2F3D = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0810;
 					};
 				};
 			};
@@ -119,9 +136,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AFCF6C81CDC050E006D2F3D /* LaunchScreen.storyboard in Resources */,
-				1AFCF6C51CDC050E006D2F3D /* Assets.xcassets in Resources */,
-				1AFCF6C31CDC050E006D2F3D /* Main.storyboard in Resources */,
+				9DCB51761E1EC1EE00F6CFCD /* Main.storyboard in Resources */,
+				9DCB51741E1EC1EE00F6CFCD /* Assets.xcassets in Resources */,
+				9DCB51751E1EC1EE00F6CFCD /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,27 +149,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AFCF6BE1CDC050E006D2F3D /* AppDelegate.swift in Sources */,
+				9DCB51781E1EC1EE00F6CFCD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1AFCF6C11CDC050E006D2F3D /* Main.storyboard */ = {
+		9DCB516D1E1EC1EE00F6CFCD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1AFCF6C21CDC050E006D2F3D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		1AFCF6C61CDC050E006D2F3D /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1AFCF6C71CDC050E006D2F3D /* Base */,
+				9DCB516E1E1EC1EE00F6CFCD /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		9DCB516F1E1EC1EE00F6CFCD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DCB51701E1EC1EE00F6CFCD /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -172,8 +189,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -217,8 +236,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -237,6 +258,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -245,10 +267,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Notes/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.devmountain.Notes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -256,10 +279,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Notes/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.devmountain.Notes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -282,6 +306,7 @@
 				1AFCF6CE1CDC050E006D2F3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
