@@ -1,8 +1,8 @@
 # Instructions for Notes
 
-Notes is designed to help you practice using what you learned in this Unit. You will have to use UITableViewControllers, different UIKit elements, segues, outlets, actions, and persistence with NSUserDefaults.
+Notes is designed to help you practice using what you learned in this Unit. You will have to use UITableViewControllers, different UIKit elements, segues, outlets, actions, and persistence with UserDefaults.
 
-Please fork and clone this repository, then watch the screen recording provided before starting. This will show you what you need to build. Your project must display note items in a table view with, persist note items across app launches using NSUserDefaults, allow the user to add notes to the list using a detail view, and allow the user to see existing notes using the same detail view. Best of luck.
+Please fork and clone this repository, then watch the screen recording provided before starting. This will show you what you need to build. Your project must display note items in a table view, persist note items across app launches using UserDefaults, allow the user to add notes to the list using a detail view, and allow the user to see existing notes using the same detail view. Best of luck.
 
 ### Black Diamonds
   * Enable swipe to delete functionality on entries in the List View
@@ -26,4 +26,4 @@ Students who complete this project independently are able to:
   * Convert a custom model object into a Dictionary
   * Convert a Dictionary into a custom model object for use
   * Identify and describe what can be stored in plist files
-  * Persist data between app launches using NSUserDefaults
+  * Persist data between app launches using UserDefaults
