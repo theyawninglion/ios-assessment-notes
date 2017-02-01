@@ -9,7 +9,7 @@ Note the following requirements:
 1. Initial screen shows a list of notes. Each row shows as much of the note text as will fit.
 2. Tapping the plus button in the top right corner brings up a screen with a text view to enter text for a new note.
 3. Tapping the Save button saves the new note and returns to the list of notes.
-4. If the app is killed and restarted, previously saved contacts must continue to be shown.
+4. If the app is killed and restarted, previously saved notes must continue to be shown.
 5. Tapping on an existing note in the list returns to the detail view and shows the full text of the note.
 6. User can swipe to delete existing notes.
 
