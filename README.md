@@ -1,29 +1,39 @@
-# Instructions for Notes
+# Instructions for Unit 1 Challenge
 
-Notes is designed to help you practice using what you learned in this Unit. You will have to use UITableViewControllers, different UIKit elements, segues, outlets, actions, and persistence with UserDefaults.
+## Requirements
 
-Please fork and clone this repository, then watch the screen recording provided before starting. This will show you what you need to build. Your project must display note items in a table view, persist note items across app launches using UserDefaults, allow the user to add notes to the list using a detail view, and allow the user to see existing notes using the same detail view. Best of luck.
+Please fork and clone this repository, then watch the screen recording provided before starting. The included screen recording demonstrates the application you are to create for this challenge.
+
+Note the following requirements:
+
+1. Initial screen shows a list of notes. Each row shows as much of the note text as will fit.
+2. Tapping the plus button in the top right corner brings up a screen with a text view to enter text for a new note.
+3. Tapping the Save button saves the new note and returns to the list of notes.
+4. If the app is killed and restarted, previously saved contacts must continue to be shown.
+5. Tapping on an existing note in the list returns to the detail view and shows the full text of the note.
+6. User can swipe to delete existing notes.
 
 ### Black Diamonds
-  * Enable swipe to delete functionality on entries in the List View
-  * Implement the ability to search through notes using a UISearchBar and Swift's built-in filter function
+  - The detail view for an existing note should allow editing the text of the note.
+  - Add a search bar to the notes list view to allow the user to search for specific contacts.
+  - Allow rearranging notes in the notes list.
 
-Students who complete this project independently are able to:
-  * Identify and use documentation to implement UIKit elements
-  * Place views on the screen and update their properties
-  * Identify and describe the role of View Controllers
-  * Identify and implement different Controls and use control events to execute code
-  * Identify and implement Navigation Controllers
-  * Identify, describe, and implement storyboard segues and unwind segues
-  * Identify, describe, and use Stack Views and basic Auto Layout to place views
-  * Use size classes to design effectively for multiple devices
-  * Identify and describe the importance of Table Views
-  * Use the UITableViewDataSource protocol functions to provide data to an instance of UITableView
-  * Describe, identify, and implement proper Model-View-Controller principles
-  * Create a custom class for storing model data
-  * Store data on and retrieve data from a model controller object
-  * Identify, describe, and implement the singleton pattern
-  * Convert a custom model object into a Dictionary
-  * Convert a Dictionary into a custom model object for use
-  * Identify and describe what can be stored in plist files
-  * Persist data between app launches using UserDefaults
+## Covered Concepts
+
+This challenge is intended to assess your ability to build applications that make use of simple `UITableViews`, exhibit proper Model View Controller (MVC) architecture, and are built using Storyboards, segues, persist data using `UserDefaults`, etc. It covers the following concepts taught in Unit 1:
+
+- Basic Model View Controller architecture
+- The role and use of `UIViewController`
+- The role and use of `UINavigationController`
+- Use of `IBOutlet`s
+- Use of `IBAction`s
+- Implementation of `UITableViewDataSource` and `UITableViewDelegate`
+- Creation of custom model classes
+- Data persistence using `UserDefaults`
+- Conversion of custom model objects to dictionaries and vice versa
+- Basic model controller design and implementation
+- Use of the singleton/shared instance design pattern
+
+**Note**: You **may not** copy and paste code from previous projects.
+
+You will have 3 hours and 30 minutes to complete this challenge.
