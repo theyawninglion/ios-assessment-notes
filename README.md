@@ -15,7 +15,7 @@ Note the following requirements:
 
 ### Black Diamonds
   - The detail view for an existing note should allow editing the text of the note.
-  - Add a search bar to the notes list view to allow the user to search for specific contacts.
+  - Add a search bar to the notes list view to allow the user to search for specific notes.
   - Allow rearranging notes in the notes list.
 
 ## Covered Concepts
